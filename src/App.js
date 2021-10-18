@@ -6,7 +6,7 @@ import Write from "./pages/write/Write";
 import Setting from "./pages/setting/Setting.jsx";
 import Register from "./pages/register/Register";
 import Login from "./pages/login/Login.jsx";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   const user = false;
