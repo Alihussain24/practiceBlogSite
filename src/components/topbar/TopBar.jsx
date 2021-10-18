@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const TopBar = () => {
-  const user = false;
+  const user = true;
 
   return (
     <>
@@ -92,7 +92,6 @@ const TopBar = () => {
             </>
           )}
 
-          <i class="logout fas fa-sign-out-alt"></i>
         </div>
       </div>
     </>
